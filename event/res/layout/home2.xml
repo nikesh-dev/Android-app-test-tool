@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <Button
+        android:id="@+id/databases"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/startt"
+        android:layout_alignRight="@+id/startt"
+        android:layout_below="@+id/startt"
+        android:layout_marginTop="40dp"
+        android:background="#ddffdd"
+        android:text="Databases" />
+
+    <Button
+        android:id="@+id/startt"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
+        android:background="#ddffdd"
+        android:onClick="Click"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/databases"
+        android:layout_alignRight="@+id/databases"
+        android:layout_below="@+id/databases"
+        android:layout_marginTop="56dp"
+        android:background="#ddffdd"
+        android:text="About Us" />
+
+</RelativeLayout>

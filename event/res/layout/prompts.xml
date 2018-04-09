@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+ 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Key"
+        android:textColorLink="#000000"
+        android:textStyle="bold" />
+ 
+    <EditText
+        android:id="@+id/editTextDialogUserInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+         >
+        
+        <requestFocus />
+ 
+    </EditText>
+
+    <TextView
+        android:id="@+id/texttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time :"
+        android:textColorLink="#000000"
+        android:textStyle="bold" />
+ 
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+         />
+ 
+</LinearLayout>
